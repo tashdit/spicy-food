@@ -1,0 +1,156 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h1{
+    color: #48494b;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+h3{
+    color: #696b6d;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.skip-color{
+    color: #39A2DB;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.order-btn{
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(#39A2DB,#A2DBFA);
+    padding: 18px 40px;
+    color: #fff;
+    margin-top: 30px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+
+
+
+
+.about{
+    height: 600px;
+    background-image: url("images/shapes/Frame\ 57.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-img img{
+    margin: 70px 0 0 180px;
+    width: 45%;
+}
+
+
+
+
+
+.recipe-title{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.recipe-title h3{
+margin: 0 600px 100px 600px;
+font-size: 18px;
+}
+
+.recipie-item{
+    width: 43%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px 30px 40px 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.recipie-item h3{
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.recipie-item img{
+    width: 375px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+
+
+
+
+.subscription{
+    margin: 65px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+.subscrib{
+    width: 33%;
+    margin-left: 150px;
+}
+
+.subscrib h3{
+    display: inline-block;
+    margin: 0;
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.subscrib h4{
+    color: #696b6d;
+}
+
+
+
+
+
+
+footer{
+    background: black;
+    height: 300px;
+    text-align: center;
+}
+
+footer h2{
+    padding-top: 50px;
+    color: #696b6d;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+footer h2 span{
+    margin-right: 25px;
+}
+
+footer p{
+    color: white;
+}
